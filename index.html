@@ -303,7 +303,7 @@
 						<h2 class="fh5co-section-title animate-box">Video</h2>
 						<!-- <p class="fh5co-lead animate-box">We'd love to talk about your story.</p> -->
 						<p class="animate-box">"Kau adalah pelipur lara dalam setiap badai yang melanda, membawa sinar kebahagiaan di setiap sudut hatiku."</p>
-						<video controls class="video-player" style="border: 2px solid #ccc;">
+						<video controls class="video-player animate-box" style="border: 2px solid #ccc;">
 							<source src="videos/MVI_7295.mp4" type="video/mp4">
 							Your browser does not support the video tag.
 						</video>  
@@ -395,8 +395,10 @@
 	<script src="js/jquery.flexslider-min.js"></script>
 	<!-- Main JS -->
 	<script src="js/main.js"></script>
-	<embed src="audios/penjaga-hati.mp3" loop="true" autostart="true" width="2"
-	height="0">
+	<script>
+		var audio = new Audio('https://github.com/frlovestory/lovegrafy/blob/master/audios/penjaga-hati.mp3');
+		audio.play();
+	</script>
 	</body>
 </html>
 
